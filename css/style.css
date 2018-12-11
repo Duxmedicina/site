@@ -3402,7 +3402,7 @@ ul.commentList .oneComment .metaIcon i:before {
   text-align: center;
 }
 .logoSlider .flexslider .slides > li img {
-  display: inline-block;
+  display: inline-flex;
 }
 .logoSlider .flexslider .flex-direction-nav a {
   top: 0;
@@ -4599,7 +4599,7 @@ html[xmlns] .slides {
   /* content slider */
 }
 .flexFull.flexslider .slides > li > .container {
-  position: relative;
+  position: left;
 }
 .flexFull.flexslider .slides > li > .container .flexContent {
   position: absolute;
@@ -4988,7 +4988,8 @@ html[xmlns] .slides {
   z-index: 1;
 }
 .parallaxSection .parallax .container {
-  padding: 180px 20px 50px 20px;
+  
+  padding: 100px 0px 0px 0px;
   position: relative;
   z-index: 2;
 }
@@ -5317,7 +5318,7 @@ body.videoPage .parallaxSection .parallax .parallaxOverlay {
   .navbar-static-top,
   .navbar-fixed-top {
     position: relative;
-    margin-bottom: 0;
+    margin-bottom: 20;
   }
   .navbar .brand {
     margin: 0;
